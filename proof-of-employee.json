@@ -105,7 +105,7 @@
     },
     "credentialSubject": {
       "type": "object",
-      "required": ["id", "isEmployee"],
+      "required": ["id", "isEmployee", "location"],
       "properties": {
         "id": {
           "title": "Credential Subject ID",
