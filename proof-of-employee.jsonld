@@ -22,7 +22,7 @@
             "@id": "vocab:gender",
             "@type": "xsd:integer"
           },
-          "location": { // Add "location" attribute
+          "location": {
             "@id": "vocab:location",
             "@type": "xsd:integer"
           }
