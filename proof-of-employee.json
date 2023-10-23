@@ -81,7 +81,7 @@
     },
     "credentialSubject": {
       "type": "object",
-      "required": ["id", "isEmployee", "location"], // Add "location" attribute
+      "required": ["id", "isEmployee"],
       "properties": {
         "id": {
           "title": "Credential Subject ID",
@@ -91,7 +91,7 @@
         "isEmployee": {
           "type": "integer"
         },
-        "location": { // New "location" attribute
+        "location": {
           "type": "integer"
         },
         "gender": {
